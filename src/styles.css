@@ -1,0 +1,96 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.loginPageStyle{
+      margin-left: 0px !important;
+   }
+   html, body { height: 100%; }
+   body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+   .toast-container {
+      pointer-events: none;
+      position: fixed;
+      z-index: 999999;
+      opacity: 0.8 !important;
+   }
+
+   .toast-container:hover {
+      opacity: 1 !important;
+   }
+
+   .navSelectedClass{
+      background-color: #dadada;
+      color: #073577;
+   }
+
+   .btn-primary {
+      color: #fff !important;
+      background-color: #ce1316 !important;
+      border-color: #141416 !important;
+  }
+  .btn-primary:hover {
+   color: #fff !important;
+   background-color: #ce1316 !important;
+   border-color: #141416 !important;
+}
+
+.page-item.active .page-link {
+   z-index: 1;
+   color: #fff !important;
+   background-color: #ce1316 !important;
+   border-color: #000000 !important;
+}
+
+.activeNav{
+   background: #d1d1d1;
+}
+
+
+
+/****************************file upload  style box*************************** */
+/******************************************************* */
+
+.badge {
+   font-weight: 400;
+   padding: 0.35em 0.25em !important;
+}
+
+
+
+/* Input type file style  */
+
+.Uploadbtn {
+   position: relative;
+   overflow: hidden;
+   margin: 0 auto;
+   display: inline-block;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   color: #008ecb;
+   background: #fff;
+   border: 1px solid #008ecb;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   border-radius: 8px;
+   text-align: center;
+   cursor: pointer;
+   font-size: 16px;
+ }
+
+
+ .Uploadbtn .input-upload {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 0;
+   padding: 0;
+   opacity: 0 !important;
+   height: 100%;
+   width: 100%;
+ }
+
+ agm-map {
+  height: 300px;
+}
